@@ -1,0 +1,32 @@
+/*==============Error=================*/
+section.error {
+    position: relative;
+    margin-top: 165px;
+    text-align: center;
+
+
+    .error-page {
+        position: relative;
+
+        h2{
+            margin: 40px auto;
+        }
+        a.error-btn {
+            position: relative;
+            background: $hoverColor;
+            padding: 16px 40px;
+            color: #ffffff;
+            display: inline-block;
+            text-transform: uppercase;
+            font-family: $secondaryFont;
+            font-weight: 500;
+            transition: .4s ease;
+
+            &:hover{
+                background: #fdc480;
+            }
+        }
+    }
+}
+
+/*==============End Error=================*/

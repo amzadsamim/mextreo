@@ -1,0 +1,284 @@
+/*===============Recent project================*/
+.hero-social {
+    position: absolute;
+    left: 5%;
+    top: 35%;
+    z-index: 1;
+
+    ul{
+        position: relative;
+
+        &::before{
+            position: absolute;
+            content: '';
+            width: 2px;
+            height: 100px;
+            background: #dcbc95;
+            top: -90px;
+            left: 8px;
+        }
+
+        li{
+            display: grid;
+            padding: 18px 0px;
+            a{
+                font-size: 20px;
+                color: #a3a3a3;
+                transition: .5s ease;
+                &:hover{
+                    color: #dcbc94;
+                }
+            }
+        }
+    }
+}
+section.recent-project {
+    position: relative;
+    padding-top: 150px;
+    text-align: center;
+
+    .recent-pro-top {
+        position: relative;
+        z-index: 1;
+        h2.rp-tittle {
+            position: absolute;
+            font-family: 'Montserrat';
+            font-weight: 800;
+            font-size: 193px;
+            text-transform: uppercase;
+            top: -25%;
+            left: 11%;
+            color: #f8f8f8;
+            z-index: -1;
+        }
+
+        .ht-tittle{
+
+            &::after{
+                position: absolute;
+                content: '';
+                background: $hoverColor;
+                height: 2px;
+                width: 60px;
+                right: -75%;
+                top: 35%;
+            }
+        }
+
+    }
+
+    .project{
+        margin-top: 70px;
+            .owl-nav{
+                button.owl-next {
+                    background: #fff;
+                    position: absolute;
+                    right: -5px;
+                    top: 43%;
+                    width: 45px;
+                    border-radius: 0;
+                    color: #212020;
+                    font-size: 26px;
+                    height: 45px;
+
+                    &:hover{
+                        color: $hoverColor;
+                    }
+
+                    ::before{
+                        display: none;
+                    }
+                }
+                button.owl-prev {
+                    
+                    background: #fff;
+                    position: absolute;
+                    left: -5px;
+                    top: 43%;
+                    color: #212020;
+                    font-size: 26px;
+                    border-radius: 0;
+                    width: 45px;
+                    height: 45px;
+
+                    &:hover{
+                        color: $hoverColor;
+                    }
+                    ::before{
+                        display: none;
+                    }
+                }
+            }
+        .single-project {
+            position: relative;
+            overflow: hidden;
+
+            &:hover{
+
+                &::before{
+                    opacity: 0.702;
+                }
+
+                .sp-text {
+                    bottom: 5%;
+                }
+                .rp-icon {
+                    opacity: 1;
+                    bottom: 45%;
+                }
+                .sp-img{
+
+                    img{
+                        transform: scale(1.5)
+                    }
+                }
+            }
+            &::before{
+                    position: absolute;
+                    content: '';
+                    background-color: #171616;
+                    opacity: 0;
+                    top: 0;
+                    height: 100%;
+                    width: 100%;
+                    left: 0;
+                    transition: all .6s ease;
+                    z-index: 1;
+            }
+
+            .sp-img{
+
+                img{
+                    transform: scale(1);
+                    transition-duration: 3s, 0s;
+                }
+            }
+            .sp-text {
+                position: absolute;
+                bottom: -15%;
+                text-align: left;
+                left: 10%;
+                transition: .6s ease;
+                z-index: 1;
+
+                h3 {
+                    color: #fff;
+                }
+                p{
+                    color: #fff;
+                }
+            }
+            .rp-icon {
+                position: absolute;
+                bottom: 55%;
+                font-size: 35px;
+                opacity: 0;
+                left: 45%;
+                color: #fff;
+                transition: .6s ease;
+                z-index: 1;
+            }
+        }
+    }
+}
+
+section.recent-project.dark {
+
+    .recent-pro-top {
+        h2.rp-tittle {
+            color: #2c2b2b;
+            z-index: -1;
+        }
+    }
+    }
+
+
+section.mextreo-blog {
+    position: relative;
+    padding-top: 150px;
+    .mex-blog-top {
+        position: relative;
+        text-align: center;
+        margin-bottom: 70px;
+        z-index: 1;
+        h2.mb-tittle {
+            position: absolute;
+            font-family: 'Montserrat';
+            font-weight: 800;
+            font-size: 193px;
+            text-transform: uppercase;
+            top: -25%;
+            left: 22%;
+            color: #f8f8f8;
+            z-index: -1;
+        }
+
+        .ht-tittle{
+            &::after{
+                position: absolute;
+                content: '';
+                background: $hoverColor;
+                height: 2px;
+                width: 60px;
+                right: -75%;
+                top: 35%;
+            }
+        }
+
+    }
+
+    
+    .single-blog {
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 30px;
+
+        &:hover{
+            img{
+                transform: scale(1.5);
+            }
+            .sb-content {
+
+                margin-left: 5%;
+            }
+        }
+        img{
+            transform: scale(1);
+            transition: all 1.5s ease;
+        }
+        .sb-content {
+            position: relative;
+            width: 90%;
+            margin-left: 10%;
+            background: #fff;
+            padding: 20px;
+            margin-top: -20%;
+            transition: all .9s ease;
+
+            h3 {
+                font-size: 22px;
+                margin-bottom: 20px;
+                transition: all .6s ease;
+
+                &:hover{
+                    color:$hoverColor;
+                }
+            }
+        }
+    }
+
+}
+
+section.mextreo-blog.dark {
+ .mex-blog-top{
+    h2.mb-tittle {
+        color: #2c2b2b;
+    }
+ }
+}
+
+
+
+/*===============Recent project================*/
+
+  

@@ -1,0 +1,72 @@
+/*==============Header Style==============*/
+
+header.mextreo-header-area {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    left: 0;
+    padding: 20px 0px;
+    z-index: 9;
+    .logo-wrapper {
+        position: relative;
+        padding-top: 10px;
+
+        img{
+            width: auto;
+        }
+    }
+    .mextreo-menu {
+        position: relative;
+        .sm-mint{
+            position: relative;
+           
+            }
+
+            .side-ber {
+                position: absolute;
+                right: 0;
+                top: 10px;
+                z-index: 9999;
+
+                .sb-icon {
+                    position: relative;
+
+                    a{
+                        font-size: 20px;
+                        color: #fcfcfc;
+                    }
+                }
+            }
+    }
+}
+
+header.mextreo-header-area.mha-inner {
+  
+    .mextreo-menu {
+        .sm-mint{
+           
+            }
+
+            .side-ber {
+                position: absolute;
+                right: 0;
+                top: 10px;
+                z-index: 9999;
+
+                .sb-icon {
+                    position: relative;
+
+                    a{
+                        font-size: 20px;
+                        color: #000000;
+                    }
+                }
+            }
+    }
+}
+li.tel {
+    position: absolute;
+    right: 20%;
+}
+/*==============End Header Style==============*/

@@ -1,0 +1,228 @@
+/*========================
+
+Responsive Style
+
+==========================*/
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width\
+
+@media only screen and (max-width: 1920px) {
+
+    
+}
+@media only screen and (min-width: 991.99px) {
+   
+
+}
+@media only screen and (max-width: 1515px){
+
+
+ 
+}
+@media only screen and (max-width: 1475px){
+
+ 
+
+}
+
+@media only screen and (max-width: 1350px){
+
+    
+}
+
+
+// Large devices (desktops, less than 1200px)
+@media only screen and (min-width: 1200px) and (max-width: 1502px) {
+
+
+
+}
+// Large devices (desktops, less than 1200px)
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+
+}
+@media  only screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+    .sm-mint a .sub-arrow{
+        display: none;
+    }
+    
+
+} //End min 992px to max 1199px
+// Medium devices (tablets, less than 1199px)
+@media  only screen and (min-width: 1199px){ 
+
+  
+    .sm-mint a.has-submenu {
+        padding-right: 34px;
+      }
+   
+
+
+}
+
+
+@media  only screen and (max-width: 1199px) {
+   
+    h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+ 
+    h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+
+
+
+
+    
+} // End Max 1199px
+
+@media only screen and (max-width: 1091px){
+
+}
+
+
+@media only screen and (max-width: 1043px){
+
+    section.hero-3::before {
+        height: 118%;
+    }
+}  
+
+
+@media only screen and (min-width: 768px) and (max-width: 991.90px) {
+
+  
+    .sm-mint a {
+        padding: 14px 16px;
+        font-size: 10px;
+    }
+    .sm-mint a .sub-arrow{
+        display: none;
+    }
+    
+
+
+} // End min 767px to max 991px
+
+// Medium devices (tablets, less than 992px)
+@media  only screen and (max-width: 991px){ 
+   
+
+} /*--Max-width :991px----------*/
+
+// Small devices (landscape phones, less than 868px)
+@media  only screen and (max-width: 867px) {
+ 
+
+} /*===========Max-width : 867px---------------*/
+
+// Small devices (landscape phones, less than 768px)
+@media  only screen and (max-width: 767px) {
+
+    .sm-mint a {
+        color: rgb(0, 0, 0);
+        padding: 10px 10px;
+    }
+    .sm-mint {
+        padding: 31px 20px;
+    }
+    
+    #main-menu {
+        position: fixed;
+    max-height: 383px;
+    border-bottom: 0;
+    overflow-y: scroll;
+    width: 100%;
+    top: 70px;
+    left: 0;
+      }
+}// ENd max 767px
+
+// Extra small devices (portrait phones, less than 615px)
+@media  only screen and (max-width: 615px) { 
+
+    
+
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media  only screen and (max-width: 575px) { 
+
+    
+
+ } // End max 575px
+// Extra small devices (portrait phones, less than 512px)
+@media  only screen and (max-width: 512px) { 
+
+ 
+
+} //End max 512px
+ 
+// Extra small devices (portrait phones, less than 493px)
+@media  only screen and (max-width: 492px) { 
+    
+   
+ }
+ // End max 492px 
+
+
+// Extra small devices (portrait phones, less than 460px)
+@media  only screen and (max-width: 459px) { 
+
+
+
+
+ }// End Max 459px 
+
+ 
+// Extra small devices (portrait phones, less than 434px)
+@media  only screen and (max-width: 434px) { 
+
+    
+ } // End max 434px
+
+ 
+// Extra small devices (portrait phones, less than 402px)
+@media  only screen and (max-width: 402px) { 
+
+
+
+  
+ } // End max 402px
+
+// Extra small devices (portrait phones, less than 388px)
+@media  only screen and (max-width: 388px) { 
+
+    
+
+ }// End max 388px
+
+ // Extra small devices (portrait phones, less than 375px)
+@media  only screen and (max-width: 375px) { 
+
+
+
+
+}// End max 375px
+
+
+
+// Extra small devices (portrait phones, less than 359px)
+@media  only screen and (max-width: 365px) { 
+   
+
+
+}
+
+
